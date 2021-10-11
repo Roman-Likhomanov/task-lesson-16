@@ -11,7 +11,6 @@ module.exports = {
   },
   plugins: ["jest"],
   rules: {
-    "no-unused-vars": "off",
     "no-proto": "off",
     "no-new": "off",
     "import/extensions": "off",
@@ -25,7 +24,12 @@ module.exports = {
     "no-useless-escape": "off",
     "no-alert": "off",
     "no-console": "off",
-    "max-len": "off",
+    "max-len": [
+      "error",
+      {
+        ignoreComments: true,
+      },
+    ],
     "import/prefer-default-export": "off",
   },
 };
