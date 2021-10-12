@@ -49,25 +49,25 @@ section img {
   height: 40%;
 }
 
-p.a {
+section.d {
   display: inline-block;
   width: 20%;
   float: left;
 }
 
-p.b {
+section.e {
   display: inline-block;
   width: 55%;
   float: left;
 }
 
-p.c {
+section.f {
   display: inline-block;
   width: 20%;
   float: left;
 }
 
-div {
+section.g {
   display: block;
   clear: left;
   width: 100%;
@@ -75,7 +75,7 @@ div {
   overflow: scroll;
 }
 
-div p {
+section.g p {
   display: inline-block;
   width: 23%;
   float: left;
