@@ -12,7 +12,7 @@
 h1 {
   margin: 2rem;
   text-align: center;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 2px solid #ccc;
   padding-bottom: 12px;
 }
 
@@ -20,7 +20,8 @@ section {
   display: block;
   position: relative;
 }
-section h4.a {
+
+.subtitle1 {
   display: block;
   position: absolute;
   width: 50%;
@@ -28,7 +29,7 @@ section h4.a {
   left: 45%;
 }
 
-section h4.b {
+.subtitle2 {
   display: block;
   position: absolute;
   width: 50%;
@@ -36,7 +37,7 @@ section h4.b {
   left: 45%;
 }
 
-section h4.c {
+.subtitle3 {
   display: block;
   position: absolute;
   width: 50%;
@@ -49,34 +50,34 @@ section img {
   height: 40%;
 }
 
-section.d {
-  display: inline-block;
+.section_left {
+  display: block;
   width: 20%;
   float: left;
 }
 
-section.e {
-  display: inline-block;
+.section_middle {
+  display: block;
   width: 55%;
   float: left;
 }
 
-section.f {
-  display: inline-block;
+.section_right {
+  display: block;
   width: 20%;
   float: left;
 }
 
-section.g {
+.section_bottom {
   display: block;
   clear: left;
   width: 100%;
   height: 200px;
-  overflow: scroll;
+  overflow: auto;
 }
 
-section.g p {
-  display: inline-block;
+.section_bottom p {
+  display: block;
   width: 23%;
   float: left;
 }
